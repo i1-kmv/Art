@@ -2,6 +2,7 @@ import modals from './modules/modals';
 import sliders from './modules/sliders';
 import forms from './modules/forms';
 import mask from './modules/mask';
+import showMoreStyles from './modules/showMoreStyles';
 
 window.addEventListener('DOMContentLoaded', () => {
     'use strict';
@@ -13,6 +14,8 @@ window.addEventListener('DOMContentLoaded', () => {
     forms();
 
     mask('[name = "phone"]');
+
+    showMoreStyles('.button-styles', '.styles-2' );
 
 
 });
