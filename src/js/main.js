@@ -15,7 +15,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     mask('[name = "phone"]');
 
-    showMoreStyles('.button-styles', '.styles-2' );
+    showMoreStyles('.button-styles', '#styles .row');
 
 
 });

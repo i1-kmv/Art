@@ -1,3 +1,5 @@
+import {postData} from '../services/requests';
+
 const forms = () => {
   const form = document.querySelectorAll('form'),
         inputs = document.querySelectorAll('input'),
