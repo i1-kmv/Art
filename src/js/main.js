@@ -3,6 +3,7 @@ import sliders from './modules/sliders';
 import forms from './modules/forms';
 import mask from './modules/mask';
 import showMoreStyles from './modules/showMoreStyles';
+import calc from './modules/calc';
 
 window.addEventListener('DOMContentLoaded', () => {
     'use strict';
@@ -17,5 +18,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
     showMoreStyles('.button-styles', '#styles .row');
 
+    calc('#size', '#material', '#options', '.promocode', '.calc-price');
 
 });
