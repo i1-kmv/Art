@@ -6,6 +6,7 @@ import showMoreStyles from './modules/showMoreStyles';
 import calc from './modules/calc';
 import filter from './modules/filter';
 import pictureSize from './modules/picturesSize';
+import accordion from './modules/accordion';
 
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -26,5 +27,7 @@ window.addEventListener('DOMContentLoaded', () => {
     filter();
 
     pictureSize('.sizes-block');
+
+    accordion('.accordion-heading', '.accordion-block');
 
 });
